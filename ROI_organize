@@ -1,0 +1,140 @@
+# Alphabetize
+roi_fa = [
+    'PTR, EC, CGC, SFO, IFO, UNC, FX, BCC, GCC', 
+    'PTR, SS, CGC, FX.ST, SLF, SFO, IFO, BCC, GCC, SCC',
+    'ALIC, PLIC, RLIC, ACR, SCR, PCR, PTR, SS, EC, CGC, FX.ST, SLF, SFO, UNC, IC, FX, BCC, GCC, SCC',
+    'CST, ALIC, PLIC, RLIC, ACR, PCR, EC, CGC, CGH, SLF, SFO, IFO, IC, BCC, GCC, SCC',
+    'SS, CGC, SLF',
+    'PLIC, RLIC, ACR, SCR, PCR, PTR, SS, EC, CGC, FX.ST, SLF, SFO, UNC, IC, FX, BCC',
+    'CST, ALIC, PLIC, RLIC, PTR, EC, CGC, CGH, SLF, SFO, IC',
+    '',
+    '',
+    '',
+    'CST, ALIC, ACR, PCR, SS, EC, CGC, SLF, SFO, UNC',
+    '',
+    '',
+    '',
+]
+
+def alphabetize_string(s):
+    if s: 
+        items = s.split(', ')
+        items.sort()
+        return ', '.join(items)
+    return s
+
+roi_fa_alphabetized = [alphabetize_string(s) for s in roi_fa]
+
+print("Alphabetized list:")
+for s in roi_fa_alphabetized:
+    if s: 
+        print(s)
+    else:
+        print("[Empty String]")  
+
+print("Finished printing the alphabetized list.")
+
+roi_md = [
+    'CST, ACR, SCR, PCR, PTR, SS, EC, SLF, SFO, IFO, UNC, BCC, GCC, SCC', 
+    'FX',
+    'PLIC, ACR, SCR, PCR, PTR, SS, EC, CGC, CGH, FX.ST, SLF, SFO, IFO, UNC, IC, FX, BCC, GCC, SCC',
+    'ACR, CGC, SCC',
+    '',
+    'ALIC, ACR, SCR, PCR, PTR, SS, EC, CGH, SLF, SFO, UNC',
+    'CGC',
+    '',
+    '',
+    '',
+    'ACR, SCR, SLF, UNC',
+    '',
+    '',
+    '',
+]
+
+def alphabetize_string(s):
+    if s: 
+        items = s.split(', ')
+        items.sort()
+        return ', '.join(items)
+    return s
+
+roi_md_alphabetized = [alphabetize_string(s) for s in roi_md]
+
+print("Alphabetized list:")
+for s in roi_md_alphabetized:
+    if s: 
+        print(s)
+    else:
+        print("[Empty String]")  
+
+print("Finished printing the alphabetized list.")
+
+roi_ad = [
+    'CST', 
+    'FX.ST, FX',
+    'CST, ALIC, PLIC, RLIC, ACR, SCR, PCR, PTR, SS, CGH, FX.ST, SLF, SFO, IFO, UNC, IC, FX',
+    'CST, ALIC, RLIC, PCR, PTR, SS, CGC, SLF, SFO, IC, FX, BCC, GCC, SCC',
+    '',
+    'PLIC, RLIC, CGH, FX.ST',
+    'CST, ALIC, RLIC, CGC, SLF, SFO, IC',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+]
+
+def alphabetize_string(s):
+    if s: 
+        items = s.split(', ')
+        items.sort()
+        return ', '.join(items)
+    return s
+
+roi_ad_alphabetized = [alphabetize_string(s) for s in roi_ad]
+
+print("Alphabetized list:")
+for s in roi_ad_alphabetized:
+    if s: 
+        print(s)
+    else:
+        print("[Empty String]")  
+
+print("Finished printing the alphabetized list.")
+
+roi_rd = [
+    'ACR, SCR, PTR, CGC, SLF, SFO, IFO, UNC, FX, BCC, GCC', 
+    'FX, BCC',
+    'ALIC, PLIC, RLIC, ACR, SCR, PCR, PTR, SS, EC, CGC, CGH, FX.ST, SLF, SFO, UNC, IC, FX, BCC, GCC, SCC',
+    'CST, ALIC, PLIC, RLIC, ACR, EC, CGC, CGH, SLF, SFO, IFO, IC, BCC, GCC',
+    'SLF, IFO, FX, BCC, GCC, SCC',
+    'ALIC, RLIC, ACR, SCR, PCR, PTR, SS, EC, CGC, FX.ST, SLF, SFO, UNC, IC, FX, BCC, GCC, SCC',
+    'CST, RLIC, CGC, CGH, IC',
+    '',
+    '',
+    '',
+    'CST, ACR, SCR, PCR, SS, EC, CGC, SLF, UNC',
+    '',
+    '',
+    '',
+]
+
+def alphabetize_string(s):
+    if s: 
+        items = s.split(', ')
+        items.sort()
+        return ', '.join(items)
+    return s
+
+roi_rd_alphabetized = [alphabetize_string(s) for s in roi_rd]
+
+print("Alphabetized list:")
+for s in roi_rd_alphabetized:
+    if s: 
+        print(s)
+    else:
+        print("[Empty String]")  
+
+print("Finished printing the alphabetized list.")
